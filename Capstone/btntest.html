@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <title>Document</title>
+    <style>
+        .dropbtn {
+            background-color: aquamarine;
+            color: #74a7b2;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+}
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+}
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: aquamarine;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #74a7b2;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            text-decoration: underline;
+        }
+
+        .dropdown-content a:hover {background-color: aquamarine;}
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: aquamarine;}
+
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Home</a>
+          <a href="#">Not Home</a>
+          <a href="#">Home on the Right</a>
+        </div>
+      </div>
+</body>
+</html>
